@@ -62,5 +62,60 @@ div:not([class]) > div:not([class])
 	text-align: left}
 
 
+/*
+.box1{
+	float:left;
+	width:33.3333333%;
+}
+*/
 
 
+.box2{
+	float:left;
+}
+
+.box3{
+	float:left;
+}
+
+
+/*
+.box4{
+	float:left;
+	width:50%;
+}
+*/
+
+/*
+.boxA{
+	background-color:#a0e0fe;
+	border:solid 8px #00a0e9;
+	color:#00a0e9;
+}
+*/
+
+
+.boxA::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+
+
+
+
+/* ----ここは練習のCSSです----- */
+	.test{
+		border:solid 5px #000000;
+	}
+
+	/* ------ 以下が練習部分 ------ */
+	.aaa {
+		width: 200px;
+		height: 100px;
+		background: lightblue;
+		overflow: hidden;
+	  }
+
+/* --------------------------- */
